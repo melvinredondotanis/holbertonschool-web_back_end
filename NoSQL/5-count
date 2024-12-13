@@ -1,2 +1,2 @@
 // 5-count
-db.school.countDocuments({"name":"Holberton school"})
+db.school.count()
