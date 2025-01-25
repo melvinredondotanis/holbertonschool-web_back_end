@@ -1,3 +1,4 @@
-const displayMessage = require('./0-console');
+import { taskFirst, taskNext } from './0-constants.js';
 
-displayMessage("Hello NodeJS!");
+console.log(`${taskFirst()} ${taskNext()}`);
+
